@@ -8,7 +8,13 @@
   <name>CyberGarage CyberLink Suite</name>
   <description>A set of UPnP tools, libraries and softwares</description>
   <url>http://sourceforge.net/projects/cgupnpjava/</url>
-  
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+
   <issueManagement>
   	<system>SourceForge.net - Tracker</system>
   	<url><![CDATA[http://sourceforge.net/tracker/?group_id=75638&atid=544606]]></url>
@@ -66,24 +72,6 @@
         </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <distributionManagement>
-    <repository>
-      <id>sourceforge.net</id>
-      <name>CyberLink Repository</name>
-      <url>scpexe://shell.sourceforge.net/home/groups/c/cg/cgupnpjava/htdocs/repository/</url>
-    </repository>
-    <snapshotRepository>
-      <id>sourceforge.net</id>
-      <name>CyberLink Development Repository</name>
-      <url>scpexe://shell.sourceforge.net/home/groups/c/cg/cgupnpjava/htdocs/snapshots-repository/</url>
-    </snapshotRepository>
-    <site>
-      <id>sourceforge.net</id>
-      <name>CyberLink SourceForge Website</name>
-      <url>scpexe://shell.sourceforge.net/home/groups/c/cg/cgupnpjava/htdocs/</url>
-    </site>
-  </distributionManagement>
 
   <repositories>
     <repository>
