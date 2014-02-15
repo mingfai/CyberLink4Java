@@ -3,7 +3,7 @@
 
   <parent>
     <artifactId>cyberlink</artifactId>
-    <groupId>org.cybergarage.cyberlink</groupId>
+    <groupId>com.palominolabs.cyberlink</groupId>
     <version>2.1.0-SNAPSHOT</version>
   </parent>
 

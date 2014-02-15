@@ -3,13 +3,13 @@
 
   <parent>
     <artifactId>cyberlink</artifactId>
-    <groupId>org.cybergarage.cyberlink</groupId>
+    <groupId>com.palominolabs.cyberlink</groupId>
     <relativePath>../../</relativePath>
     <version>2.1.0-SNAPSHOT</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.cybergarage.cyberlink.samples</groupId>
+  <groupId>com.palominolabs.cyberlink.samples</groupId>
   <artifactId>igd-tool</artifactId>
   <packaging>jar</packaging>
   <version>2.1.0-SNAPSHOT</version>
